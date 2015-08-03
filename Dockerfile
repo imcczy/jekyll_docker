@@ -7,7 +7,7 @@ ENV OPENRESTY_VERSION 1.7.10.2
 ENV RUBY_VERSION 2.2.1
 
 RUN apt-get update && apt-get install -y supervisor  git curl nodejs \
-    libreadline-dev libncurses5-dev libpcre3-dev libssl-dev perl wget &&
+    libreadline-dev libncurses5-dev libpcre3-dev libssl-dev perl wget && \
     apt-get clean
 
 RUN gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 \
