@@ -1,1 +1,1 @@
-http://imcczy.com/jekyll_docker.html
+http://imcczy.com/jekyll-docker.html
